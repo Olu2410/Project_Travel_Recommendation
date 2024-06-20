@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-image: url("../bg_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(53, 56, 51);
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.logo {
+    font-size: 30px;
+    margin-left: 20px;
+}
+/* nav a {
+    text-decoration: none;
+    color: white;
+} */
+nav ul {
+    display: flex;
+    gap: 50px;
+    /* margin-left: 200px; */
+}
+nav ul li {
+    list-style-type: none;
+}
+.page-intro{
+    margin-left: 100px;
+    width: 300px;
+}
+#heading-text {
+    margin-top: 100px;
+    font-size: 45px;
+}
+#home-para-text {
+    margin-top: 20px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+#book-now-btn {
+    margin-top: 10px;
+    padding: 7px;
+    border: none;
+}
+aside {
+    /* background-color: rgb(34, 236, 236); */
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    left: 0;
+    top: 53px;
+    bottom: 0;
+    padding: 20px; 
+    align-items: center;   
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 25px;
+}
+.vertical-line {
+    height: 200px;
+    margin-top: 30px;
+    border-left: 3px solid whitesmoke;
+}
+/* aboutUs page */
+
+.about-us {
+    width: 77%;
+    margin-left: 120px;
+    margin-top: 80px;
+}
+.about-us h1{
+    font-weight: 900;
+    font-size: 50px;
+    font-style: oblique;
+}
+#about-us-para{
+    margin-top: 26px;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(#f4eaea, #b6c1ee)   
+}
+.our-team{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.our-team h2{
+    font-size: 40px;
+}
+.john-doe img {
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.john-doe{
+    border-radius: 10px;
+    background: linear-gradient(#f4eaea, #d4d5d9)   
+}
+
+/* CONTACT US */
+.contact-us{
+    display: flex;
+    margin-top: 12%;
+    margin-left: 300px;
+    gap: 100px;
+}
+#get-in-touch{
+    margin-top: 50px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    background: inherit;
+}
+textarea {
+    background: inherit;
+}
