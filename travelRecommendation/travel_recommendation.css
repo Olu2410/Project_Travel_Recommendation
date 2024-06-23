@@ -20,18 +20,14 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: rgb(53, 56, 51);
-    color: white;
-    padding: 15px;
+    padding: 10px;
     font-size: 20px;
 }
 .logo {
     font-size: 30px;
     margin-left: 20px;
 }
-/* nav a {
-    text-decoration: none;
-    color: white;
-} */
+
 nav ul {
     display: flex;
     gap: 50px;
@@ -40,25 +36,60 @@ nav ul {
 nav ul li {
     list-style-type: none;
 }
+.nav_search {
+    background-color: whitesmoke;
+    padding: 3px 10px;
+    border-radius: 30px;
+    align-items: center;
+    
+}
+.nav_search input {
+    border: none;
+    outline: none;
+    width: 220px;
+    background-color: whitesmoke;
+}
+.nav_search button{
+    background-color: rgb(111, 238, 196);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+button{
+    cursor: pointer;
+}
+.nav_search i {
+    color: rgb(111, 238, 196);
+    vertical-align: middle;
+}
+
 .page-intro{
+    display: flex;
+    flex-direction: column;
     margin-left: 100px;
     width: 300px;
 }
-#heading-text {
+.home-page{
+    display: flex;
+    gap: 200px;
     margin-top: 100px;
+}
+#heading-text {
     font-size: 45px;
 }
 #home-para-text {
     margin-top: 20px;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 #book-now-btn {
     margin-top: 10px;
-    padding: 7px;
+    padding: 10px;
     border: none;
+    color: white;
+    background-color: #2f7588;
 }
 aside {
-    /* background-color: rgb(34, 236, 236); */
+    background-color: rgb(53, 56, 51);
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -131,7 +162,7 @@ aside {
 #get-in-touch{
     margin-top: 50px;
 }
-input{
+.input-field input{
     width: 350px;
     height: 30px;
     background: inherit;
