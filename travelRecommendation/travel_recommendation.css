@@ -17,15 +17,18 @@ body {
 }
 nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
     background-color: rgb(53, 56, 51);
     padding: 10px;
     font-size: 20px;
 }
 .logo {
     font-size: 30px;
-    margin-left: 20px;
+    position: fixed;
+    left: 20px;
+
+    margin-left: 1px;
 }
 
 nav ul {
@@ -41,7 +44,8 @@ nav ul li {
     padding: 3px 10px;
     border-radius: 30px;
     align-items: center;
-    
+    position: fixed;
+    right: 10px;    
 }
 .nav_search input {
     border: none;
